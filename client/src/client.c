@@ -36,7 +36,7 @@ int main(void)
 
 	ip = config_get_string_value(config,"IP");
 	puerto = config_get_string_value(config,"PUERTO");
-	valor = config_get_string_value(config,"VALOR");
+	valor = config_get_string_value(config,"CLAVE");
 
 	log_info(logger,ip);
 	log_info(logger,puerto);
